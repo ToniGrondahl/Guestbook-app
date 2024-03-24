@@ -1,0 +1,19 @@
+{
+  "name": "guestbook-app",
+  "version": "1.0.0",
+  "description": "project1-guestbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniGrondahl/Guestbook-app.git"
+  },
+  "author": "Toni Gröndahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniGrondahl/Guestbook-app/issues"
+  },
+  "homepage": "https://github.com/ToniGrondahl/Guestbook-app#readme"
+}
