@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <body>
+            <div class="off-screen-menu">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="newmessage">Add entry</a></li>
+                  <li><a href="ajaxmessage">Add entry (AJAX)</a></li>
+                  <li><a href="guestbook">View guestbook</a></li>
+                </ul>
+              </div>
+              <nav>
+                <div class="ham-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </nav>
+                <hr>
+                <div id="main">
+                    <div class="header">
+                        <h1>GUESTBOOK 📖</h1>
+                        <h2>Here you can view the entries</h2>
+                    </div>
+        
+                    <div class="guestbook">
+                        <div id="tableresult"></div>
+                    </div>
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="/javascript/guestbook.js"></script>
+                <script src="/javascript/ui.js"></script>
+        </body>
+</html>

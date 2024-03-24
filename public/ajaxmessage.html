@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <body>
+            <div class="off-screen-menu">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="newmessage">Add entry</a></li>
+                  <li><a href="ajaxmessage">Add entry (AJAX)</a></li>
+                  <li><a href="guestbook">View guestbook</a></li>
+                </ul>
+              </div>
+              <nav>
+                <div class="ham-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </nav>
+                <hr>
+                <div id="main">
+                    <div id="header">
+                        <h1>Add entry (AJAX)</h1>
+                        <h2>You are welcome to leave a message!</h2>
+                    </div>
+                    
+                    <div class="content">
+                        <form class="pure-form pure-form-aligned" action="/update" method="post">
+                            <fieldset>
+                                <div class="pure-control-group">
+                                    <div id="message" class="pure-control-group">
+                                    <input name="name" id="name" type="text" placeholder="Your name">
+                                </div>
+                                <div id="message" class="pure-control-group">
+                                    <input name="country" id="country" type="text" placeholder="Your country">
+                                </div>
+                                <div id="message" class="pure-control-group">
+                                    <input name="message" id="comment" type="text" placeholder="Type your message">
+                                </div>
+                            </fieldset>
+                            <div id="message" class="pure-control-group">
+                            <button class="pure-button">Send</button>
+                    </div>
+                    </div>
+                </div>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/javascript/ajaxmessage.js"></script>
+        <script src="/javascript/ui.js"></script>
+</html>
