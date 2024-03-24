@@ -28,8 +28,6 @@ p {
      background-color:deepskyblue;
 }
   
-
-/* base styles */
 * {
     margin: 0;
     padding: 0;
@@ -53,7 +51,6 @@ body {
     font-family: sans-serif;
 }
 
-/* off-screen-menu */
 .off-screen-menu {
     background-color:  rgb(34, 37, 49);
     height: 100vh;
@@ -74,14 +71,12 @@ body {
     left: 0;
 }
 
-/* nav */
 nav {
     padding: 1rem;
     display: flex;
     background-color: rgb(34, 37, 49);
 }
 
-/* ham menu */
 .ham-menu {
     height: 50px;
     width: 40px;
@@ -130,6 +125,7 @@ nav {
 
 .content {
     text-align: center;
+    padding-top: 30px;
 }
 
 .main {
