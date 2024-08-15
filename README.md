@@ -29,8 +29,5 @@ This project was made as a part of Fullstack course by Laurea University of Appl
 Users can submit a new message.
 Users can view all previous messages.
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
-
 ## License
 This project is licensed under the MIT License.
